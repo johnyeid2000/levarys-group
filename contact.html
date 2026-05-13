@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — LEVARYS GROUP</title>
+  <meta name="description" content="Contact LEVARYS GROUP for corporate inquiries, project introductions, and strategic partnerships.">
+  <meta name="theme-color" content="#060a12">
+  <link rel="icon" href="levarysgroup.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="levarysgroup.svg" width="1536" height="1024" alt="LEVARYS GROUP">
+        <div class="logo-wordmark">
+          <strong>Levarys Group</strong>
+        </div>
+      </a>
+      <nav class="nav-primary" id="nav-primary" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="strategic-developments.html">Strategic Developments</a>
+        <a href="industries.html">Industries</a>
+        <a href="sustainability.html">Sustainability</a>
+        <a href="network.html">Network</a>
+        <a href="contact.html" class="is-active">Contact</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-primary">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="section-inner reveal">
+      <p class="eyebrow">Contact</p>
+      <h1>Corporate inquiries &amp; introductions</h1>
+      <p class="lead">Route your message through the channel that best reflects the nature of your engagement. We respond to qualified corporate, project, and partnership correspondence in a structured manner.</p>
+    </div>
+  </section>
+
+  <main class="bg-deep page-block">
+    <div class="section-inner contact-layout">
+      <div class="reveal">
+        <p class="eyebrow">Inquiry form</p>
+        <h2 style="margin-bottom:1.5rem;">Send a message</h2>
+        <form id="contact-form" class="form-grid">
+          <div>
+            <label for="category">Inquiry category</label>
+            <select id="category" name="category" required>
+              <option value="" disabled selected>Select a category</option>
+              <option value="General corporate inquiry">General corporate inquiry</option>
+              <option value="Project inquiry">Project inquiry</option>
+              <option value="EPC / project development">EPC / project development</option>
+              <option value="Strategic partnership">Strategic partnership</option>
+              <option value="Fuel &amp; logistics">Fuel &amp; logistics</option>
+              <option value="Industrial chemicals or services">Industrial chemicals or services</option>
+              <option value="Media or other">Media or other</option>
+            </select>
+          </div>
+          <div class="form-grid two" style="grid-column:1/-1;">
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div>
+              <label for="organization">Organization</label>
+              <input id="organization" name="organization" type="text" autocomplete="organization">
+            </div>
+          </div>
+          <div class="form-grid two" style="grid-column:1/-1;">
+            <div>
+              <label for="email">Business email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+          <div style="grid-column:1/-1;">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Describe your inquiry, proposed engagement, or introduction context."></textarea>
+          </div>
+          <p style="grid-column:1/-1;font-size:0.85rem;color:var(--metal);">Submitting opens your default email client with a pre-filled message to the appropriate address. If your client does not open, use the addresses in the column at right.</p>
+          <button type="submit" class="btn btn-primary" style="grid-column:1/-1;justify-self:start;">Submit inquiry</button>
+        </form>
+      </div>
+
+      <aside class="contact-aside reveal">
+        <p class="eyebrow">Corporate office</p>
+        <h3>Secretariat &amp; coordination</h3>
+        <p>LEVARYS GROUP maintains corporate functions for international coordination, meeting scheduling, and documentation exchange. Specific office locations and time-zone coverage are confirmed during engagement setup in line with operational and compliance requirements.</p>
+
+        <h3 style="margin-top:2rem;">Inquiry categories</h3>
+        <p style="font-size:0.95rem;">Use the category selector in the form so your message reaches the correct workstream—corporate, project development, fuel and logistics, industrial services, or partnerships.</p>
+
+        <h3 style="margin-top:2rem;">Business inquiry</h3>
+        <p style="font-size:0.95rem;">For project scoping, EPC interfaces, procurement discussions, and operational service introductions:</p>
+        <ul class="mail-list">
+          <li><a href="mailto:projects@levarysgroup.com">projects@levarysgroup.com</a></li>
+        </ul>
+
+        <h3 style="margin-top:2rem;">Strategic partnership</h3>
+        <p style="font-size:0.95rem;">For consortium roles, capital alignment, co-development frameworks, and confidential partnership discussions:</p>
+        <ul class="mail-list">
+          <li><a href="mailto:partnerships@levarysgroup.com">partnerships@levarysgroup.com</a></li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <section class="cta-band">
+    <div class="section-inner reveal text-center">
+      <p class="eyebrow">Direct channels</p>
+      <p class="lead mx-auto"><a href="mailto:projects@levarysgroup.com">projects@levarysgroup.com</a> · <a href="mailto:partnerships@levarysgroup.com">partnerships@levarysgroup.com</a></p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a href="index.html" class="logo-link" style="margin-bottom:1rem;">
+          <img src="levarysgroup.svg" width="1536" height="1024" alt="">
+          <div class="logo-wordmark">
+            <strong>Levarys Group</strong>
+          </div>
+        </a>
+        <p style="font-size:0.9rem;max-width:22rem;color:var(--metal);">Integrated energy and infrastructure solutions for international industrial markets.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="strategic-developments.html">Strategic Developments</a>
+        <a href="industries.html">Industries</a>
+        <a href="sustainability.html">Sustainability</a>
+        <a href="network.html">Network</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-bottom">
+        <span>&copy; <span id="y"></span> LEVARYS GROUP. All rights reserved.</span>
+        <span>Information on this website is provided for general corporate purposes and does not constitute an offer or solicitation.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
